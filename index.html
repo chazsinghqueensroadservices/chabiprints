@@ -7,14 +7,15 @@
         <link rel="stylesheet" href="chabistyle.css">
     </head>
     <body>
-        <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown">
+        <div class="dropdown">
+        <button onclick="globalclickmenu" class="dropbtn">
         Menu
         </button>
-        <ul class="dropdown">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="public/basket.html">Your Basket</a></li>
-            <li><a href="public/login.html">Login</a></li>
-            <li><a href="public/about.html">About</a></li>
+        <div id="globalclickmenu" class="dropdown-content">
+            <a href="index.html">Home</a>
+            <a href="public/basket.html">Your Basket</a>
+            <a href="public/login.html">Login</a>
+            <a href="public/about.html">About</a>
         </ul>
         </div>
         <div class="container">
